@@ -42,6 +42,9 @@ const Countries = () => {
          </li>
          ))}
      </ul>
+     {selectedRadio && 
+      <button>Annuler la recherche</button>
+     }
       {/* affichage de pays */}
       <ul>
         {/* filter (pour filtrer le pays par continent), sort (pour trier par nombre de population), la méthode .slice determiner le nombre de pays à afficher sur la page principal, .map il nous permet d'afficher tout les contenus de notre tableau pays */}
